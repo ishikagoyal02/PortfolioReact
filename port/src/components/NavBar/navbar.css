@@ -1,0 +1,25 @@
+*{
+    text-align: right;
+    border: 6.5px solid #A78295;
+}
+.navlist
+{
+    /* border: 2px #4F4557; */
+    padding: 0px 80px;
+    background-color: #A78295 ;
+
+}
+
+.navButton
+{
+    color: #F4EEE0;
+    padding: 9px 10px;
+    margin: 0px 2.5px;
+    border-style: none;
+}
+
+.navButton:hover{
+    color:antiquewhite;
+    border-top: 6px solid rgb(45, 45, 48);
+    border-bottom: 6px solid rgb(45, 45, 48);
+}
