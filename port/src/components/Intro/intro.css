@@ -1,0 +1,57 @@
+
+#intro {
+    height: 90vh;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    display: flex; /* Enables flexbox */
+    align-items: center; /* Centers content vertically */
+    justify-content: space-between; /* Separates the text and image */
+}
+
+.introContent {
+    width: 50%; /* Adjust based on your preference */
+    text-align: left; /* Ensures text is aligned to the left */
+    padding-left: 3rem; /* Gives some space from the left edge */
+    font-size: 3rem;
+    font-weight: 700;
+   
+}
+
+.hello
+{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.introName
+{
+    color: rgb(196, 240, 74);
+}
+
+.para
+{
+    margin-top: 1rem;
+    font-size: medium;
+    font-weight: 100;
+}
+
+
+.bg {
+    position: absolute;
+    top: 1;
+    right: 0;
+    z-index: -2;
+    object-fit: cover; /* Adjust this to cover if you want the image to fill the area */
+    width: 40%; /* Adjust based on your preference */
+    height: 85%; /* Makes sure the image covers the vertical space */
+}
+
+.btn {
+
+    margin-top: 1rem;
+    background-color: white;
+    padding: 1.5rem 2.3rem;
+    border-radius: 3rem;
+    font-size: 1rem; /* Adjust the font size as needed */
+}
