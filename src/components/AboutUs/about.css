@@ -47,7 +47,7 @@
     
     position: relative;
     animation-name: example;
-    animation-duration: 3s;
+    animation-duration: 2s;
 }
 
 /* Styled the image */
@@ -74,7 +74,7 @@
 
 /* Styled the main paragraph text */
 .aboutPa {
-    font-size: 1rem; /* Font size for paragraph */
+    font-size: 0.8rem; /* Font size for paragraph */
     
     margin-top: 1rem; /* Margin at the top */
 }
@@ -83,4 +83,19 @@
 @keyframes example {
     0% { margin-left: 80rem; }
     100% { margin-left: 3rem; }
+}
+
+.contacts{
+    display: flex;
+    justify-content:safe;
+    align-items: center;
+    cursor: pointer;
+}
+.contacts .cont
+{
+    height: 2.7rem;
+    width: 2.7rem;
+    margin-top: 3rem ;
+    border-radius: 100%;
+    border: solid rgb(66, 64, 64);
 }

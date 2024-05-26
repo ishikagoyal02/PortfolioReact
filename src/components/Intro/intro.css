@@ -89,6 +89,7 @@
     padding: 1.5rem 2.3rem;
     border-radius: 3rem;
     font-size: 1rem; /* Adjust the font size as needed */
+    cursor: pointer;
 }
 
 .btn:hover{
