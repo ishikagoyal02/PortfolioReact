@@ -2,6 +2,7 @@ import React from "react";
 import './intro.css';
 import bg from '../../assets/bg.png';
 import { Link } from 'react-scroll';
+import { TypeAnimation } from 'react-type-animation';
 
 const Intro = () =>
     {
@@ -11,18 +12,18 @@ const Intro = () =>
                 <span className="hello">Hello,</span>
                 <br></br>
                 <span className="introText">I'm <span className="introName">Ishika</span><br/>
-                {/* <ul className="dynamic">
-                    <li><span> Web Developer</span></li>
-                    <li><span> Open Source Enthusiast</span></li>
-                    <li><span> Problem Solver</span></li>
-                    <li><span> Website Designer</span></li>
-                </ul> */}
-                
-                Web Developer
+               
+
+                <TypeAnimation className="dynamic"
+                sequence={['Web Developer', 500, 'Open Source Enthusiast', 500, 'Problem Solver', 500]}
+                style={{ fontSize: '3rem' }}
+                repeat={Infinity}
+/>
                 </span>
 
-                <p className="para">I am a skilled web designer with experience in creating visually appealing and user friendly website</p>
+                {/* <p className="para">I am a passionate tech enthusiast dedicated to leveraging technology to create innovative solutions and enhance user experiences</p> */}
                 
+                <br/>
                 <a href={require("../../assets/IshikaGoyal_B.TechCS.pdf")} download="Ishika_Resume.pdf">
                     <button className="btn">Download Resume</button>
                 </a>
