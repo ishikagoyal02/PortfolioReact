@@ -1,0 +1,86 @@
+/* #about
+{
+    height: 100vh;
+    width: 100vw;
+    max-width: 65vw;
+
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+
+    margin-top: 5rem;
+
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.image
+{
+    height: 22rem;
+    width: 21rem;
+    margin-left: 3rem;
+    border-radius: 30rem;
+    border: solid ;
+    
+}
+
+@keyframes example {
+    0% { margin-left: 80rem; }
+    100% { margin-left: 3rem;}
+    
+}
+
+.aboutIntro
+{
+    color: rgb(196, 240, 74);
+}
+ */
+
+ /* Added styles for the about section */
+#about {
+    display: flex; /* Changed to flex display */
+    align-items: center; /* Vertically center items */
+    justify-content: space-between; /* Space between image and text */
+    height: 100vh;
+    width: 100vw;
+    
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;
+}
+
+/* Styled the image */
+.image {
+    height: 22rem;
+    width: 21rem;
+    margin-left: 3rem;
+    border-radius: 30rem;
+    border: solid;
+}
+
+/* Added styles for the text container */
+.aboutCont {
+    
+    padding: 2.5rem; /* Added padding for spacing */
+}
+
+/* Styled the introductory text */
+.aboutIntro {
+    font-size: 1.8rem; /* Font size for intro text */
+    font-weight: 300; /* Bold text */
+
+}
+
+/* Styled the main paragraph text */
+.aboutPa {
+    font-size: 1rem; /* Font size for paragraph */
+    
+    margin-top: 1rem; /* Margin at the top */
+}
+
+/* Keyframes for the animation */
+@keyframes example {
+    0% { margin-left: 80rem; }
+    100% { margin-left: 3rem; }
+}

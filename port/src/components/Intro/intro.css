@@ -4,18 +4,62 @@
     margin: 0 auto;
     overflow: hidden;
     position: relative;
-    display: flex; /* Enables flexbox */
-    align-items: center; /* Centers content vertically */
-    justify-content: space-between; /* Separates the text and image */
+   
 }
 
+.bg {
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    z-index: -2;
+    object-fit: cover; /* Adjust this to cover if you want the image to fill the area */
+    width: 40%; /* Adjust based on your preference */
+    height: 80vh; /* Makes sure the image covers the vertical space */
+}
+
+
 .introContent {
-    width: 50%; /* Adjust based on your preference */
-    text-align: left; /* Ensures text is aligned to the left */
+    height: 80vh;
+    width: 100vw;
+    /* width: 50%;  */
+    text-align: left; 
     padding-left: 3rem; /* Gives some space from the left edge */
     font-size: 3rem;
     font-weight: 700;
    
+}
+
+.introText .dynamic{
+    overflow: hidden;
+    
+}
+
+.dynamic li
+{
+    list-style: none;
+    color: #FC6D6D;
+}
+
+.dynamic li span{
+    position: relative;
+}
+
+.dynamic li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    background: #4F4557;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid #FC6D6D;
+    animation: typing 1.5s step(10) infinite;
+}
+
+@keyframes typing {
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
 }
 
 .hello
@@ -37,15 +81,6 @@
 }
 
 
-.bg {
-    position: absolute;
-    top: 1;
-    right: 0;
-    z-index: -2;
-    object-fit: cover; /* Adjust this to cover if you want the image to fill the area */
-    width: 40%; /* Adjust based on your preference */
-    height: 85%; /* Makes sure the image covers the vertical space */
-}
 
 .btn {
 
@@ -54,4 +89,8 @@
     padding: 1.5rem 2.3rem;
     border-radius: 3rem;
     font-size: 1rem; /* Adjust the font size as needed */
+}
+
+.btn:hover{
+    box-shadow: 10px black;
 }

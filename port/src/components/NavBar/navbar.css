@@ -26,6 +26,6 @@
 
 .navButton:hover {
     color: antiquewhite;
-    border-top:  solid rgb(45, 45, 48); /* 6px converted to rem */
-    border-bottom:  solid rgb(45, 45, 48); /* 6px converted to rem 0.375rem*/
+    border-top:  solid rgb(196, 240, 74); /* 6px converted to rem */
+    border-bottom:  solid rgb(196, 240, 74); /* 6px converted to rem 0.375rem*/
 }
