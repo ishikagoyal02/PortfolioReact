@@ -37,11 +37,11 @@
 }
  */
 
- /* Added styles for the about section */
+ 
 #about {
-    display: flex; /* Changed to flex display */
-    align-items: center; /* Vertically center items */
-    justify-content: space-between; /* Space between image and text */
+    display: flex;
+    align-items: center;                                        
+    justify-content: space-between; 
     height: 100vh;
     width: 100vw;
     
@@ -50,7 +50,7 @@
     animation-duration: 2s;
 }
 
-/* Styled the image */
+
 .image {
     height: 22rem;
     width: 21rem;
@@ -59,27 +59,26 @@
     border: solid;
 }
 
-/* Added styles for the text container */
+
 .aboutCont {
     
-    padding: 2.5rem; /* Added padding for spacing */
+    padding: 2.5rem; 
 }
 
-/* Styled the introductory text */
+
 .aboutIntro {
-    font-size: 1.8rem; /* Font size for intro text */
-    font-weight: 300; /* Bold text */
+    font-size: 1.8rem; 
+    font-weight: 300; 
 
 }
 
-/* Styled the main paragraph text */
 .aboutPa {
-    font-size: 0.8rem; /* Font size for paragraph */
+    font-size: 0.8rem; 
     
-    margin-top: 1rem; /* Margin at the top */
+    margin-top: 1rem; 
 }
 
-/* Keyframes for the animation */
+
 @keyframes example {
     0% { margin-left: 80rem; }
     100% { margin-left: 3rem; }
