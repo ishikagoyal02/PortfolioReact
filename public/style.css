@@ -13,3 +13,8 @@ body{
     overflow: hidden;
     overflow-y : scroll;
 }
+
+@tailwind base;
+
+@tailwind components;
+@tailwind utilities;
