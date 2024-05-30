@@ -9,7 +9,7 @@
     text-align: center;
     align-content: center;
     margin-top: 2rem;
-    margin-left: 5rem;
+    margin-left: 25%;
   }
   
   .content {
@@ -18,8 +18,8 @@
     background-color: rgb(19, 3, 3);
     /* height: 80vh; */
 
-    height: 80vh;
-    width: 40vw;
+    height: 100vh;
+    width: 50vw;
     display: flex;
     align-items: center;
     justify-content: center;
