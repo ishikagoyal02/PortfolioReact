@@ -2,15 +2,19 @@
 .navlist
 {
     text-align: right;
-    padding: 0rem 5rem; /* 0px and 80px converted to rem */
-    background-color: #1a1819;
+    padding: 0rem 20rem; /* 0px and 80px converted to rem */
+    background-color: rgb(22, 21, 21,0.4);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    
+    /* justify-content: space-between; */
     position: sticky;
     top: 0;
     z-index: 3;
-    border: 1rem solid #1a1819;
+    /* border: 1rem solid #493c41; */
+    width: 100%;
+    /* margin-left: 2%; */
+    
 }
 
 
@@ -21,7 +25,7 @@
     padding: 0.5625rem 0.625rem; /* 9px and 10px converted to rem */
     margin: 0rem 0.15625rem; /* 0px and 2.5px converted to rem */
     border-style: none;
-    border:  solid #1a1819;
+    /* border:  solid #1a1819; */
 }
 
 .navButton:hover {

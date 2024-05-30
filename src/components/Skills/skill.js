@@ -20,7 +20,7 @@ const Skills = () => {
     <Link to="skill" smooth={true} duration={1000}>
       <section id="skill">
         
-        <div className="content">
+        <div className="content"> 
           <motion.div className="cont1"></motion.div>
 
           <Skill name="C++" x="-15vh" y="5vw" />
