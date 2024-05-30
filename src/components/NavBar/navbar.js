@@ -10,6 +10,7 @@ const NavBar = ()=>
             {/* <img src={logo} alt="LOGO" className="logo"></img> */}
            
             <Link to="/" smooth={true} duration={1000} className="navButton">HOME</Link>
+            <Link to="intro" smooth={true} duration={1000} className="navButton">HOME</Link>
             <Link to="about" smooth={true} duration={1000} className="navButton">ABOUT ME</Link>
             <Link to="skills" smooth={true} duration={1000} className="navButton">SKILLS</Link>
             <Link to="education" smooth={true} duration={1000} className="navButton">EDUCATION</Link>

@@ -58,8 +58,8 @@ const About = () => {
   return (
     <Link to="about" smooth={true} duration={1000}>
       <section id="about">
-      <div className="aboutIntro">Welcome to My Portfolio.<br/>
-          </div><br/>
+      <div className="aboutIntro">Welcome to My Portfolio.
+          </div>
       
          <div className="cont">
          <img src={pp} alt="img" className="image"/>

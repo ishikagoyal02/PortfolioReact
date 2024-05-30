@@ -1,53 +1,13 @@
-/* /* #about
-{
-    height: 100vh;
-    width: 100vw;
-    max-width: 65vw;
-
-    position: relative;
-    animation-name: example;
-    animation-duration: 4s;
-
-    margin-top: 5rem;
-
-    display: flex; 
-    align-items: center;
-    justify-content: space-between; 
-}
-
-.image
-{
-    height: 22rem;
-    width: 21rem;
-    margin-left: 3rem;
-    border-radius: 30rem;
-    border: solid ;
-    
-}
-
-@keyframes example {
-    0% { margin-left: 80rem; }
-    100% { margin-left: 3rem;}
-    
-}
-
-.aboutIntro
-{
-    color: rgb(196, 240, 74);
-}
- */
-
- 
+/* 
 #about {
     display: column;
     align-items: center;                                        
-    /* justify-content: space-between;  */
-    height: 100vh;
-    width: 100vw;
+    justify-content: space-between; 
+    height: auto;
+    width: 100%;
     
     position: relative;
-    animation-name: example;
-    animation-duration: 2s;
+   
 }
 
 
@@ -99,6 +59,8 @@
     display: flex;
     justify-content:safe;
     align-items: center;
+    animation-name: example;
+    animation-duration: 2s;
 }
 .contacts .cont
 {
@@ -108,3 +70,93 @@
     border-radius: 100%;
     border: solid rgb(66, 64, 64);
 } 
+
+
+@media screen and (max-width: 710px) {
+    .cont {
+        display: flex;
+        flex-direction: column;
+    }
+} */
+
+#about {
+
+    display: column;
+    align-items: center;                                        
+    justify-content: space-between; 
+    height: auto;
+    width: 100%;
+    
+    position: relative;
+}
+
+.image {
+    height: 22rem;
+    width: 21rem;
+    margin-bottom: 1rem;
+    border-radius: 30rem;
+    border: solid;
+}
+
+.aboutCont {
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.aboutIntro {
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.aboutIntro:hover {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.aboutPa {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.cont{
+    display: flex;
+    justify-content:safe;
+    align-items: center;
+    animation-name: example;
+    animation-duration: 2s;
+}
+
+.contacts .cont {
+    height: 2.7rem;
+    width: 2.7rem;
+    border-radius: 100%;
+    border: solid rgb(66, 64, 64);
+}
+
+
+@media screen and (max-width: 710px) {
+    .image {
+        order: 0; /* Image comes after text on smaller screens */
+    }
+
+    .aboutCont {
+        order: 1; /* Text comes before image on smaller screens */
+    }
+
+    .cont {
+        flex-direction: column;
+    }
+    .image
+    {
+        align-items: center;
+    }
+}
