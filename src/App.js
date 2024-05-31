@@ -2,6 +2,7 @@ import NavBar from "./components/NavBar/navbar";
 import Intro from "./components/Intro/intro";
 import About from "./components/AboutUs/about";
 import Skill from "./components/Skills/skill";
+import Education from "./components/Education/education";
 import { BrowserRouter as Router, Route,Routes} from 'react-router-dom';
 import ParticlesComponent from './components/Particles/particles';
 import './App.css';
@@ -19,9 +20,11 @@ function App() {
       <Route path ="/home" element={<Intro/>} />
       <Route path ="/about" element={<About/>} />
       <Route path ="/skill" element={<Skill/>}  />
+      <Route path ="/education" element={<Education/>}  />
       </Routes>
       <About/>
       <Skill/>
+      <Education/>
     </Router>
     
     

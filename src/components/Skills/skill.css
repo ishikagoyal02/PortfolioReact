@@ -10,9 +10,11 @@
     align-content: center;
     margin-top: 3rem;
     margin-left: 25%;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
   
-  .content {
+  .content1 {
     /* width: 80vw; */
     position: relative;
     background-color: rgb(19, 3, 3);

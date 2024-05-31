@@ -87,6 +87,8 @@
     height: auto;
     width: 100%;
     position: relative;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .image {
