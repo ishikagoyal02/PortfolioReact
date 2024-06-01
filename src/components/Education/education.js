@@ -8,6 +8,7 @@ const Education = () => {
     return (
         <Link to="education" smooth={true} duration={1000}>
            <section id="education">
+                <div class="title">MY EDUCATION</div>  
             <div class="content">
                 <div class="box">
                     <img src={bv} alt="BV" className="img"/>
