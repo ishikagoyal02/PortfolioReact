@@ -159,5 +159,7 @@
     .image
     {
         align-items: center;
+        width: 15px;
+        height: 16px;
     }
 }

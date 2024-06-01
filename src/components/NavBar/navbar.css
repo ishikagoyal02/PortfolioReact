@@ -150,7 +150,7 @@
     .navLinks {
         display: none;
         flex-direction: column;
-        width: 70%;
+        width: 40%;
     }
 
     .navLinks.open {
