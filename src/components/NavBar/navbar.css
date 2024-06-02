@@ -1,77 +1,3 @@
-/* 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-
-:root {
-    --primary: rgb(196, 240, 74);
-    --secondary: #2ecc71;
-    --background: rgba(22, 21, 21, 0.4);
-    --text-light: #F4EEE0;
-    --text-dark: #161515;
-}
-
-
-.navlist {
-    padding: 0 2rem;
-    background-color: var(--background);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: sticky;
-    top: 0;
-    z-index: 3;
-    width: 100%;
-    transition: all 0.3s ease-in-out;
-}
-
-.navButton {
-    color: var(--text-light);
-    padding: 0.5625rem 0.625rem;
-    margin: 0 0.15625rem;
-    border: none;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    text-decoration: none;
-}
-
-.navButton:hover {
-    color: var(--text-dark);
-    background-color: var(--primary);
-    border-radius: 50%;
-    font-weight: bold;
-}
-
-@media screen and (max-width: 768px) {
-    .navlist {
-        flex-direction: column;
-        padding: 1rem;
-    }
-
-    .navButton {
-        margin: 0.5rem 0;
-        width: 100%;
-        text-align: center;
-    }
-}
-
-@keyframes slideDown {
-    from {
-        transform: translateY(-100%);
-    }
-    to {
-        transform: translateY(0);
-    }
-}
-
-.navlist {
-    animation: slideDown 0.5s ease;
-} */
-
-
 /* Global Styles */
 * {
     box-sizing: border-box;
@@ -86,6 +12,7 @@
     --background: rgba(22, 21, 21, 0.4);
     --text-light: #F4EEE0;
     --text-dark: #161515;
+    --background-dark: #161515;
 }
 
 /* Navbar Styles */
@@ -135,31 +62,33 @@
 
 @media screen and (max-width: 768px) {
     .navlist {
-        color: var(--text-light);
         flex-direction: column;
         align-items: flex-start;
-        padding: 2rem;
-        border: #F4EEE0;
+        padding: 1rem;
     }
 
     .menuButton {
         display: block;
-
     }
 
     .navLinks {
         display: none;
         flex-direction: column;
-        width: 40%;
+        width: 100%;
     }
 
     .navLinks.open {
         display: flex;
+        width: 50%;
+        height: 30rem;
+        background-color: rgb(113 143 31);
+        align-items: center;
+        justify-content: center;
     }
 
     .navButton {
         margin: 0.5rem 0;
-        width: 70%;
+        width: 100%;
         text-align: center;
     }
 }
