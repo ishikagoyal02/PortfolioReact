@@ -3,6 +3,7 @@ import Intro from "./components/Intro/intro";
 import About from "./components/AboutUs/about";
 import Skill from "./components/Skills/skill";
 import Education from "./components/Education/education";
+import Experience from "./components/Experience/experience";
 import { BrowserRouter as Router, Route,Routes} from 'react-router-dom';
 import ParticlesComponent from './components/Particles/particles';
 import './App.css';
@@ -25,6 +26,7 @@ function App() {
       <About/>
       <Skill/>
       <Education/>
+      <Experience/>
     </Router>
     
     

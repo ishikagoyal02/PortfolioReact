@@ -26,15 +26,30 @@ const About = () => {
            </span>
  
            <div className="contacts">
-             <a href="https://linktr.ee/ishika_goyal02" target="_blank" rel="noopener noreferrer">
-               <img src={linktree} className="cont linktree" alt="Linktree" />
-             </a>
-             <a href="https://www.linkedin.com/in/ishika-goyal-375112221/" target="_blank" rel="noopener noreferrer">
-               <img src={linkedln} className="cont linkedin" alt="LinkedIn" />
-             </a>
-             <a href="https://github.com/ishikagoyal02" target="_blank" rel="noopener noreferrer">
-               <img src={github} className="cont github" alt="GitHub" />
-             </a>
+                {/* <Link to="https://linktr.ee/ishika_goyal02">
+                  <Image src={linktree} className="cont linktree" alt="Linktree"  />
+                </Link>
+               
+               <Link  to= "https://www.linkedin.com/in/ishika-goyal-375112221/">
+                  <Image src={linkedln} className="cont linkedin" alt="LinkedIn" />
+               </Link>
+               
+              <Link to="https://github.com/ishikagoyal02">
+                  <Image src={github} className="cont github" alt="GitHub" />
+              </Link> */}
+
+              <a href="https://linktr.ee/ishika_goyal02" target="_blank" rel="noopener noreferrer">
+              <img src={linktree} className="cont linktree" alt="Linktree" />
+            </a>
+            
+            <a href="https://www.linkedin.com/in/ishika-goyal-375112221/" target="_blank" rel="noopener noreferrer">
+              <img src={linkedln} className="cont linkedin" alt="LinkedIn" />
+            </a>
+            
+            <a href="https://github.com/ishikagoyal02" target="_blank" rel="noopener noreferrer">
+              <img src={github} className="cont github" alt="GitHub" />
+            </a>
+             
            </div>
          </div>
          </div>
