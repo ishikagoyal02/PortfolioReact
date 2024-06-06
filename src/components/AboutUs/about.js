@@ -12,7 +12,8 @@ const About = () => {
   return (
     <Link to="about" smooth={true} duration={1000}>
       <section id="about">
-      <div className="aboutIntro">Welcome to My Portfolio.
+      <div className="aboutIntro">
+      <div className="title"><span>Welcome to my portfolio</span></div>
           </div>
       
          <div className="cont">

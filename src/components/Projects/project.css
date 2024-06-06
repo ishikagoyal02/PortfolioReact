@@ -1,0 +1,127 @@
+:root {
+  --main1: #1a1a1a;
+  --main2: #333333;
+  --primary: #c4f04a;
+  --secondary: #2ecc71;
+  --ternary: #ffffff;
+  --hover: #ff6347;
+}
+
+.projects {
+  padding: 4rem 4rem 8rem 4rem;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  /* background-color: var(--main1); */
+  color: var(--ternary);
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: var(--primary);
+  position: relative;
+  animation: fadeInDown 1s ease forwards;
+}
+
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 3rem;
+}
+
+.project-card {
+  width: 30%;
+  background-color: var(--main2);
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
+  overflow: hidden;
+  animation: fadeInUp 0.5s ease forwards;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project-info {
+  text-align: left;
+  transition: transform 0.3s;
+}
+
+.project-info h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: var(--primary);
+}
+
+.project-info p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: var(--ternary);
+}
+
+.project-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.project-links a {
+  font-size: 1.2rem;
+  color: var(--primary);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.project-links a:hover {
+  color: var(--hover);
+  border-bottom: 2px solid var(--hover);
+}
+
+.project-info .img {
+  height: 14rem;
+  width: 20rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.project-card:hover .project-info .img {
+  transform: scale(1.05);
+}
+
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(50px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+      opacity: 0;
+      transform: translateY(-50px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project-card {
+      width: 100%;
+  }
+}
