@@ -1,139 +1,141 @@
 :root {
-    --main1: #1a1a1a;
-    --main2: #333333;
-    --primary: rgb(196, 240, 74);
-    --secondary: #2ecc71;
-    --ternary: #ffffff;
-    --hover: #ff6347;
+  --main1: #1a1a1a;
+  --main2: #333333;
+  --primary: rgb(196, 240, 74);
+  --secondary: #2ecc71;
+  --ternary: #ffffff;
+  --hover: #ff6347;
+}
+
+.contact {
+  padding: 4rem;
+  text-align: center;
+  color: var(--ternary);
+  z-index: 1;
+}
+
+.contact .title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--primary);
+  animation: fadeInDown 1s ease forwards;
+}
+
+.contact .text {
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+  color: var(--ternary);
+  animation: fadeInDown 1s ease forwards;
+}
+
+.contact p {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--secondary);
+  margin-bottom: 2rem;
+}
+
+.contact .contact-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contact form {
+  width: 100%;
+  max-width: 800px; /* Increased the maximum width */
+}
+
+.contact form .fields {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+
+.contact form .field,
+.contact form .textarea {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact form .field input,
+.contact form .textarea textarea {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  border: 2px solid var(--hover);
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.3s ease;
+  background: var(--main1);
+  color: var(--ternary);
+}
+
+.contact form .field input:focus,
+.contact form .textarea textarea:focus {
+  border-color: var(--primary);
+  background: var(--secondary);
+}
+
+.contact form .textarea textarea {
+  resize: none;
+  height: 10rem;
+}
+
+.contact form .button-area {
+  display: flex;
+  justify-content: center;
+}
+
+.contact form .button-area button {
+  background: var(--hover);
+  color: var(--main1);
+  border: 2px solid var(--primary);
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 0.75rem 1.5rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  animation: fadeInUp 1s ease forwards;
+}
+
+.contact form .button-area button:hover {
+  background: var(--primary);
+  border-color: var(--hover);
+  transform: skew(-5deg);
+  box-shadow: 0 0 14px 2px var(--secondary);
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
   }
-  
-  .contact {
-    /* background: var(--main2); */
-    padding: 4rem;
-    text-align: center;
-    color: var(--ternary);
-    z-index: 1;
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  .contact .title {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    color: var(--primary);
-    animation: fadeInDown 1s ease forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
   }
-  
-  .contact .text {
-    font-size: 1.2rem;
-    margin-bottom: 3rem;
-    color: var(--ternary);
-    animation: fadeInDown 1s ease forwards;
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  .contact p {
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 900;
-    color: var(--secondary);
-    margin-bottom: 2rem;
-  }
-  
-  .contact .contact-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 2rem;
-  }
-  
+}
+
+@media (max-width: 768px) {
   .contact form .fields {
-    display: flex;
     flex-direction: column;
-    gap: 2rem;
   }
-  
-  .contact form .field,
-  .contact form .textarea {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    
-  }
-  
-  .contact form .field input,
-  .contact form .textarea textarea {
-    width: 100%;
-    padding: 1rem;
-    font-size: 1rem;
-    border: 2px solid var(--hover);
-    border-radius: 8px;
-    outline: none;
-    transition: all 0.3s ease;
-    background: var(--main1);
-    color: var(--ternary);
-  }
-  
-  .contact form .field input:focus,
-  .contact form .textarea textarea:focus {
-    border-color: var(--primary);
-    background: var(--secondary);
-  }
-  
-  .contact form .textarea textarea {
-    resize: none;
-    height: 10rem;
-    gap: 2rem;
-  }
-  
-  .contact form .button-area {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .contact form .button-area button {
-    background: var(--hover);
-    color: var(--main1);
-    border: 2px solid var(--primary);
-    border-radius: 8px;
-    font-size: 1.2rem;
-    font-weight: 700;
-    padding: 0.75rem 1.5rem;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    animation: fadeInUp 1s ease forwards;
-  }
-  
-  .contact form .button-area button:hover {
-    background: var(--primary);
-    border-color: var(--hover);
-    transform: skew(-5deg);
-    box-shadow: 0 0 14px 2px var(--secondary);
-  }
-  
-  @keyframes fadeInDown {
-    from {
-      opacity: 0;
-      transform: translateY(-20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  @keyframes fadeInUp {
-    from {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .contact form .fields {
-      flex-direction: column;
-    }
-  }
-  
+}

@@ -8,11 +8,10 @@
 }
 
 .projects {
-  padding: 4rem 4rem 8rem 4rem;
+  padding: 4rem 2rem;
   text-align: center;
   position: relative;
   z-index: 1;
-  /* background-color: var(--main1); */
   color: var(--ternary);
 }
 
@@ -27,12 +26,13 @@
 .project-cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 3rem;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .project-card {
-  width: 30%;
+  width: 100%;
+  max-width: 30%;
   background-color: var(--main2);
   border-radius: 1rem;
   padding: 2rem;
@@ -50,6 +50,7 @@
 
 .project-info {
   text-align: left;
+  height: 20rem;
   transition: transform 0.3s;
 }
 
@@ -78,6 +79,7 @@
   text-decoration: none;
   border-bottom: 2px solid transparent;
   transition: color 0.3s, border-bottom 0.3s;
+  cursor: pointer;
 }
 
 .project-links a:hover {
@@ -85,43 +87,90 @@
   border-bottom: 2px solid var(--hover);
 }
 
-.project-info .img {
-  height: 14rem;
-  width: 20rem;
+.img {
+  height: 15rem;
+  width: 100%;
+  max-width: 20rem;
   border-radius: 0.5rem;
   margin-bottom: 1rem;
   object-fit: cover;
   transition: transform 0.3s;
+  border: 0.2rem solid var(--primary);
 }
 
-.project-card:hover .project-info .img {
+.project-card:hover .img {
   transform: scale(1.05);
 }
 
 @keyframes fadeInUp {
   from {
-      opacity: 0;
-      transform: translateY(50px);
+    opacity: 0;
+    transform: translateY(50px);
   }
   to {
-      opacity: 1;
-      transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
 @keyframes fadeInDown {
   from {
-      opacity: 0;
-      transform: translateY(-50px);
+    opacity: 0;
+    transform: translateY(-50px);
   }
   to {
-      opacity: 1;
-      transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .project-card {
+    max-width: 45%;
+  }
+  .project-info {
+    height: auto;
   }
 }
 
 @media screen and (max-width: 768px) {
   .project-card {
-      width: 100%;
+    max-width: 100%;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .project-info h3 {
+    font-size: 1.5rem;
+  }
+  .project-info p {
+    font-size: 1rem;
+  }
+  .project-links a {
+    font-size: 1rem;
+  }
+  .img {
+    height: 12rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .projects {
+    padding: 2rem 1rem;
+  }
+  .title {
+    font-size: 1.8rem;
+  }
+  .project-info h3 {
+    font-size: 1.2rem;
+  }
+  .project-info p {
+    font-size: 0.9rem;
+  }
+  .project-links a {
+    font-size: 0.9rem;
+  }
+  .img {
+    height: 10rem;
   }
 }

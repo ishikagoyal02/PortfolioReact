@@ -24,7 +24,7 @@ const Experience = () => {
         </div>
         <div className="box">
           <i className="fas fa-award"></i>
-          <span className="duration">May 2023 - July 2024</span>
+          <span className="duration">May 2023 - July 2023</span>
           <h3 className="wow animate__animated animate__lightSpeedInLeft" data-wow-offset="190">GirlScript Summer of Code (Open Source Contributor)</h3>
           <ul>
             <li>Contributed to multiple open-source projects.</li>
