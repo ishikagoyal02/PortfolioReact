@@ -134,5 +134,14 @@
     .box {
       max-width: 100%;
     }
+
+    .box ul li
+    {
+      font-size: 0.9rem;
+    }
+
+    .box h3{
+      font-size: 1.5rem;
+    }
   }
   

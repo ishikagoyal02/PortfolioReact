@@ -72,6 +72,7 @@
   justify-content: center;
   gap: 1rem;
   margin-top: 1rem;
+ 
 }
 
 .project-links a {
@@ -81,6 +82,7 @@
   border-bottom: 2px solid transparent;
   transition: color 0.3s, border-bottom 0.3s;
   cursor: pointer;
+  z-index: 1;
 }
 
 .project-links a:hover {

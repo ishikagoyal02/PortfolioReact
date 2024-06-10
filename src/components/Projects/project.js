@@ -18,7 +18,7 @@ const Projects = () => {
             <p>This is my Portfolio website that helps others know about me and my works.</p>
             
           </div>
-          <a href="https://www.w3schools.com" >Visit W3Schools.com!</a>
+         
           <img src="" alt='Image' className='img'></img>
           <div className="project-links">
             <a href="https://github.com/yourusername/your-portfolio" target="_blank" rel="noopener noreferrer">
@@ -36,10 +36,10 @@ const Projects = () => {
           </div>
           <img src={goprep} alt="" className='img'></img>
           <div className="project-links">
-            <a href="https://github.com/yourusername/goprep" >
+            <a href="https://github.com/yourusername/goprep"  target="_blank" rel="noopener noreferrer">
               <img src={github} className='refimg' alt='GitHub' />
             </a>
-            <a href="https://goprep.com" >
+            <a href="https://goprep.com"  target="_blank" rel="noopener noreferrer">
               Live Demo
             </a>
           </div>
@@ -51,10 +51,10 @@ const Projects = () => {
           </div>
           <img src={tdl} alt="" className='img'></img>
           <div className="project-links">
-            <a href="https://ishikagoyal02.github.io/To-Do-List/">
+            <a href="https://ishikagoyal02.github.io/To-Do-List/"  target="_blank" rel="noopener noreferrer">
               Live Demo
             </a>
-            <a href="https://github.com/ishikagoyal02/To-Do-List" >
+            <a href="https://github.com/ishikagoyal02/To-Do-List"  target="_blank" rel="noopener noreferrer">
               <img src={github} className='refimg' alt='GitHub' />
             </a>
           </div>

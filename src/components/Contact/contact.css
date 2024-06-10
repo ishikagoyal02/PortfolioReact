@@ -5,6 +5,7 @@
   --secondary: #2ecc71;
   --ternary: #ffffff;
   --hover: #ff6347;
+  z-index: 1;
 }
 
 .contact {
@@ -47,6 +48,7 @@
 .contact form {
   width: 100%;
   max-width: 800px; /* Increased the maximum width */
+  z-index: 1;
 }
 
 .contact form .fields {
@@ -62,7 +64,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
- 
+ z-index: 1;
 }
 
 .contact form .field input,
@@ -87,6 +89,7 @@
 .contact form .textarea textarea {
   resize: none;
   height: 10rem;
+  z-index: 1;
 }
 
 .contact form .button-area {
