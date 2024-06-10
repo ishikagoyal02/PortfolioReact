@@ -5,7 +5,7 @@ import RSP from "../../assets/RPS.jpg";
 import bday from "../../assets/bday.jpg";
 import tdl from "../../assets/tdl.jpg";
 import goprep from "../../assets/goprep.jpg";
-
+import github from "../../assets/github1.png";
 
 const Projects = () => {
   return (
@@ -16,11 +16,17 @@ const Projects = () => {
           <div className="project-info">
             <h3>My Portfolio</h3>
             <p>This is my Portfolio website that helps others know about me and my works.</p>
+            
           </div>
+          <a href="https://www.w3schools.com" >Visit W3Schools.com!</a>
           <img src="" alt='Image' className='img'></img>
           <div className="project-links">
-            <a href="https://github.com/yourusername/your-portfolio" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a href="https://yourportfolio.com" target="_blank" rel="noopener noreferrer">Live Demo</a>
+            <a href="https://github.com/yourusername/your-portfolio" target="_blank" rel="noopener noreferrer">
+              <img src={github} className='refimg' alt='GitHub' />
+            </a>
+            <a href="https://yourportfolio.com" target="_blank" rel="noopener noreferrer">
+              Live Demo
+            </a>
           </div>
         </div>
         <div className="project-card">
@@ -30,8 +36,12 @@ const Projects = () => {
           </div>
           <img src={goprep} alt="" className='img'></img>
           <div className="project-links">
-            <a href="https://github.com/yourusername/goprep" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a href="https://goprep.com" target="_blank" rel="noopener noreferrer">Live Demo</a>
+            <a href="https://github.com/yourusername/goprep" >
+              <img src={github} className='refimg' alt='GitHub' />
+            </a>
+            <a href="https://goprep.com" >
+              Live Demo
+            </a>
           </div>
         </div>
         <div className="project-card">
@@ -41,8 +51,12 @@ const Projects = () => {
           </div>
           <img src={tdl} alt="" className='img'></img>
           <div className="project-links">
-            <a href="https://ishikagoyal02.github.io/To-Do-List/" target="_blank" rel="noopener noreferrer">Live Demo</a>
-            <a href="https://github.com/ishikagoyal02/To-Do-List" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://ishikagoyal02.github.io/To-Do-List/">
+              Live Demo
+            </a>
+            <a href="https://github.com/ishikagoyal02/To-Do-List" >
+              <img src={github} className='refimg' alt='GitHub' />
+            </a>
           </div>
         </div>
         <div className="project-card">
@@ -52,8 +66,12 @@ const Projects = () => {
           </div>
           <img src={bday} alt="" className='img'></img>
           <div className="project-links">
-            <a href="https://my-works-xi.vercel.app/birthday.html" target="_blank" rel="noopener noreferrer">Live Demo</a>
-            <a href="https://github.com/ishikagoyal02/MyWorks" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://my-works-xi.vercel.app/birthday.html" target="_blank" rel="noopener noreferrer">
+              Live Demo
+            </a>
+            <a href="https://github.com/ishikagoyal02/MyWorks" target="_blank" rel="noopener noreferrer">
+              <img src={github} className='refimg' alt='GitHub' />
+            </a>
           </div>
         </div>
         <div className="project-card">
@@ -63,8 +81,12 @@ const Projects = () => {
           </div>
           <img src={RSP} alt="" className='img'></img>
           <div className="project-links">
-            <a href="https://ishikagoyal02.github.io/RockPaperScissors/" target="_blank" rel="noopener noreferrer">Live Demo</a>
-            <a href="https://github.com/ishikagoyal02/RockPaperScissors" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://ishikagoyal02.github.io/RockPaperScissors/" target="_blank" rel="noopener noreferrer">
+              Live Demo
+            </a>
+            <a href="https://github.com/ishikagoyal02/RockPaperScissors" target="_blank" rel="noopener noreferrer">
+              <img src={github} className='refimg' alt='GitHub' />
+            </a>
           </div>
         </div>
       </div>

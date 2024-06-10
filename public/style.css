@@ -16,6 +16,19 @@ body{
     width:100vw;
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--border-color);
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: var(--background-color-secondary);
+  }
+
 @tailwind base;
 
 @tailwind components;

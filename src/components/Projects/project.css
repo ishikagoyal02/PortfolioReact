@@ -23,12 +23,12 @@
   animation: fadeInDown 1s ease forwards;
 }
 
-.project-cards {
+ .project-cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
-}
+} 
 
 .project-card {
   width: 100%;
@@ -37,13 +37,14 @@
   border-radius: 1rem;
   padding: 2rem;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1;
   transition: transform 0.3s, box-shadow 0.3s;
   position: relative;
   overflow: hidden;
   animation: fadeInUp 0.5s ease forwards;
-}
+} 
 
-.project-card:hover {
+ .project-card:hover {
   transform: translateY(-5px);
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
 }
@@ -96,6 +97,12 @@
   object-fit: cover;
   transition: transform 0.3s;
   border: 0.2rem solid var(--primary);
+}
+
+.refimg
+{
+  height: 2rem;
+  width: 3rem;
 }
 
 .project-card:hover .img {
