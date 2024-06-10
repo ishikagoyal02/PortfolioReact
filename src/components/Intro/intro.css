@@ -1,4 +1,3 @@
-
 #intro {
     height: 90vh;
     margin: 0 auto;
@@ -23,14 +22,11 @@
 .introContent {
     height: 80vh;
     width: 100vw;
-    /* width: 50%;  */
     text-align: left; 
-    padding-left: 3rem; /* Gives some space from the left edge */
+    padding-left: 3rem; 
     font-size: 3rem;
     font-weight: 700;
-   
 }
-
 
 .hello
 {
@@ -56,10 +52,22 @@
     background-color: white;
     padding: 1.5rem 2.3rem;
     border-radius: 3rem;
-    font-size: 1rem; /* Adjust the font size as needed */
+    font-size: 1rem; 
     cursor: pointer;
 }
 
 .btn:hover{
     box-shadow: 10px black;
+}
+
+@media screen and (max-width: 710px)
+{
+    .introContent{
+        font-size: 1.9rem;
+    }
+
+    .dynamic
+    {
+        font-size: 1.7rem;
+    }
 }

@@ -20,16 +20,12 @@ const Intro = () =>
                 repeat={Infinity}
 />
                 </span>
-
-                {/* <p className="para">I am a passionate tech enthusiast dedicated to leveraging technology to create innovative solutions and enhance user experiences</p> */}
-                
                 <br/>
                 <a href={require("../../assets/IshikaGoyal_B.TechCS.pdf")} download="Ishika_Resume.pdf">
                     <button className="btn">Download Resume</button>
                 </a>
                 
                 </div>
-                {/* <img src={bg} alt='Profile' className="bg"/> */}
                 
 
             </section>
