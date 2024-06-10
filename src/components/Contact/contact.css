@@ -78,6 +78,7 @@
   transition: all 0.3s ease;
   background: var(--main1);
   color: var(--ternary);
+  z-index:1;
 }
 
 .contact form .field input:focus,
@@ -95,6 +96,7 @@
 .contact form .button-area {
   display: flex;
   justify-content: center;
+  z-index:1;
 }
 
 .contact form .button-area button {
@@ -108,6 +110,7 @@
   transition: all 0.3s ease;
   cursor: pointer;
   animation: fadeInUp 1s ease forwards;
+  z-index:1;
 }
 
 .contact form .button-area button:hover {
