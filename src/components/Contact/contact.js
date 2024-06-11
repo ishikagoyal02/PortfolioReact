@@ -39,7 +39,8 @@ const Contact = () => {
               <textarea cols="30" rows="10" name="Message" placeholder="Your Message..." required></textarea>
             </div>
            
-            <button className="button-area"><input type="submit" value="Send"  className="wow animate__animated animate__zoomIn"/></button>
+          
+            <button className="field button-area"><input type="submit" value="Send Message"  className="wow animate__animated animate__zoomIn"/></button>
            
             </div>
           </form>

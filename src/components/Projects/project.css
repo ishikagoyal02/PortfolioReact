@@ -30,6 +30,7 @@
   overflow: auto;
   gap: 3rem;
   padding-bottom: 20px;
+  z-index: 1;
 }
 
 .project-cards::-webkit-scrollbar {
@@ -38,7 +39,7 @@
 }
 
 .project-cards::-webkit-scrollbar-thumb {
-  background-color: #20a4b6;
+  background-color: var(--primary);
   border-radius: 100px;
 }
 
