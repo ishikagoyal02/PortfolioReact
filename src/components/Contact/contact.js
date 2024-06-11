@@ -10,7 +10,7 @@ const Contact = () => {
         e.preventDefault();
 
         if (form.current) {
-            emailjs.sendForm('service_ysz2aft', 'service_ysz2aft', form.current, 'dmELZUsa-cXjs1PuR') // service_id,template,public_key
+            emailjs.sendForm('service_ysz2aft', 'template_rdj2tvj', form.current, 'dmELZUsa-cXjs1PuR') // service_id,template,public_key
                 .then(
                     (result) => {
                         console.log('SUCCESS!', result.text);
