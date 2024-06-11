@@ -36,10 +36,10 @@
   
   .experience .box {
     position: relative;
-
+    
     width: 100%;
     max-width: 500px;
-    height: 30rem;
+    height: auto;
     /* background: rgba(26, 26, 26, 0.9); */
     /* padding: 3rem; */
     padding-left: 1rem;

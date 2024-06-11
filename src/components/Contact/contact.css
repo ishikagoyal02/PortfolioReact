@@ -2,7 +2,8 @@
   --main1: #1a1a1a;
   --main2: #333333;
   --primary: rgb(196, 240, 74);
-  --secondary: #2ecc71;
+  --secondary: #ff6347;    
+ 
   --ternary: #ffffff;
   --hover: #ff6347;
   z-index: 1;
@@ -47,7 +48,7 @@
 
 .contact form {
   width: 100%;
-  max-width: 800px; /* Increased the maximum width */
+  max-width: 800px; /* Increased the maximum width  #283739  #2ecc71*/
   z-index: 1;
 }
 
