@@ -1,89 +1,68 @@
-:root {
-  --main-bg-color: #130303;
-  --highlight-color: rgb(190, 190, 37);
-  --bubble-bg-color: rgb(56, 54, 54);
-  --bubble-hover-scale: 1.1;
-  --icon-color: aliceblue;
-}
-
-#skill {
-  z-index: 1;
-  color: var(--highlight-color);
-  font-size: 2rem;
-  line-height: 1;
+#skills {
+  padding: 4rem 2rem;
   text-align: center;
-  margin-top: 3rem;
-  padding: 80px 0;
-  z-index: 1;
+
+  color: #fff;
 }
 
-.content1 {
-  position: relative;
-  background-color: var(--main-bg-color);
-  height: 100vh;
-  width: 100%;
-  max-width: 80vw;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  overflow: hidden;
-  background: repeating-radial-gradient(circle, rgba(0, 0, 0, 0.4) 10px, rgba(0, 0, 0, 0.5) 10px, #464242 120px);
-}
-
-.title span {
+.title {
   font-size: 2.5rem;
-  color: var(--highlight-color);
-  text-transform: uppercase;
+  margin-bottom: 3rem;
+  color: #c4f04a;
 }
 
-.cont1 {
-  position: absolute;
-  border-radius: 13%;
+.skills-slider {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.slider-track {
+  display: flex;
+  animation: scroll 20s linear infinite;
+}
+
+.skill-card {
+  background-color: #2b2b2b;
+  border-radius: 1rem;
   padding: 2rem;
-  cursor: pointer;
-  size: 1rem;
-  transition: transform 0.2s;
-}
-
-.conti {
+  text-align: center;
+  transition: transform 0.3s;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  background-color: var(--bubble-bg-color);
-  color: var(--icon-color);
-  cursor: pointer;
-  padding: 1rem 1.5rem;
-  position: absolute;
-  transition: transform 0.2s;
+  flex: 0 0 auto;
+  margin: 0 10px;
+  width:200px;
 }
 
-.conti:hover {
-  transform: scale(var(--bubble-hover-scale));
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
 }
 
-.icon {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
+.skill-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: #c4f04a;
 }
 
-@media (max-width: 768px) {
-  .content1 {
-    height: auto;
-    width: 90vw;
-    border-radius: 0;
-    padding: 2rem;
+.skill-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
   }
-  .title span {
-    font-size: 2rem;
+  100% {
+    transform: translateX(-50%);
   }
-  .conti {
-    padding: 0.5rem 1rem;
-  }
-  .icon {
-    font-size: 1.5rem;
-  }
+}
+
+.skills-slider .slider-track {
+  width: 200%; /* Double the width to accommodate the cloned elements */
 }
