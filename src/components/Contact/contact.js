@@ -37,14 +37,14 @@ const Contact = () => {
           <form name="Contact Submission" autoComplete="off" netlify>
             <div className="fields">
               <div className="field">
-                <input type="text" name="Name" placeholder="Name" />
+                <input type="text" name="Name" placeholder="Name" required />
               </div>
               <div className="field">
-                <input type="email" name="Email" placeholder="Email"  />
+                <input type="email" name="Email" placeholder="Email" required />
               </div>
             
             <div className="field textarea">
-              <textarea cols="30" rows="10" name="Message" placeholder="Your Message..."></textarea>
+              <textarea cols="30" rows="10" name="Message" placeholder="Your Message..." required></textarea>
             </div>
             <div className="button-area">
               <button type="submit" className="wow animate__animated animate__zoomIn">SEND MESSAGE</button>

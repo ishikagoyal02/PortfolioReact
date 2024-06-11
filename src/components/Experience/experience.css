@@ -31,7 +31,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 2rem;
-    padding: 5rem 3rem;
+    padding: 3rem 3rem;
   }
   
   .experience .box {
@@ -66,6 +66,7 @@
     font-size: 24px;
     color: var(--secondary);
     background: var(--primary);
+    margin-top: 7px;
   }
   
   .duration {
@@ -78,6 +79,7 @@
     padding: 0.5rem 1rem;
     display: inline-block;
     margin-bottom: 2rem;
+    margin-top: -11px;
   }
   
   .box h3 {
@@ -89,6 +91,7 @@
   .box ul {
     list-style-type: none;
     padding-left: 2rem;
+    text-align: left;
   }
   
   .box ul li {
