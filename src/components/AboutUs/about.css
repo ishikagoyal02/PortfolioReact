@@ -71,6 +71,12 @@
   }
   
   @media screen and (max-width: 710px) {
+
+    #about {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    
     .image {
       order: 0;
       align-items: center;

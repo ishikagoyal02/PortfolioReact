@@ -113,6 +113,11 @@
   }
   
   @media screen and (max-width: 710px) {
+
+    #intro{
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
     .introContent {
       font-size: 1.9rem;
     }

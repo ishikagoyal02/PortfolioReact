@@ -242,9 +242,24 @@
 }
 
 @media screen and (max-width: 768px) {
+
+    #education
+    {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #education .content {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
     #education .box {
         flex-direction: column;
         text-align: center;
+        margin: 0 1rem;
     }
 
     #education .img {
@@ -254,5 +269,6 @@
 
     #education .boxCont {
         padding: 15px;
+        font-size: 0.3rem;
     }
 }
