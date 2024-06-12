@@ -190,6 +190,10 @@
     padding: 0 0.7rem;
     
   }
+
+  .img{
+    height: 12rem;
+  }
   .project-card {
     width: 60%;
     height: auto;
