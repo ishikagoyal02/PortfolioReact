@@ -8,7 +8,7 @@
   }
   
   .experience {
-    padding: 4rem 4rem 8rem 4rem;
+    padding: 5rem 4rem 0rem 4rem;
     text-align: center;
     position: relative;
     z-index: 1;
@@ -133,13 +133,19 @@
 
     .experience {
       padding: 2rem 1rem 4rem 0.7rem;
+      
     }
     .experience-boxes {
       padding: 1rem;
       gap: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
+
     .box {
       max-width: 100%;
+       margin-bottom: 12rem;
     }
 
     .box ul li

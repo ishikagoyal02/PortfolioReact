@@ -6,7 +6,7 @@
     width: 100%;
     position: relative;
     padding-top: 80px;
-    padding-bottom: 80px;
+    /* padding-bottom: 80px; */
   }
   
   .image {
@@ -20,7 +20,7 @@
   .aboutCont {
     padding: 2.5rem;
     text-align: center;
-    z-index: 1;
+    /* z-index: 1; */
   }
   
   .aboutIntro {
@@ -57,7 +57,7 @@
     z-index: 1;
   }
   
-  .contacts .cont {
+  .contacts  .cont {
     height: 2.7rem;
     width: 2.7rem;
     border-radius: 100%;
@@ -65,10 +65,10 @@
     z-index: 1;
   }
 
-  .cont linktree .cont github .cont linkedln
+  /* .cont linktree .cont github .cont linkedln
   {
     z-index: 1;
-  }
+  } */
   
   @media screen and (max-width: 710px) {
 

@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 
 const Experience = () => {
   return (
-    <Link to="education" smooth={true} duration={1000}>
+    <Link to="experience" smooth={true} duration={1000}>
     <section className="experience" id="experience">
       <div className="title"><span>My Experience</span></div>
       {/* <div className="text"><span>Experience is the teacher of all things.</span></div> */}
