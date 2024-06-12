@@ -90,11 +90,16 @@
 
 .project-info .project-link {
   color: var(--primary);
+  text-decoration: none; 
+  z-index: 10; 
+  position: relative; 
 }
 
 .project-info .github-link {
   display: inline-block;
   margin-left: 0.5rem;
+  z-index: 10;
+  position: relative; 
 }
 
 .project-info p {
@@ -116,7 +121,7 @@
   border-bottom: 2px solid transparent;
   transition: color 0.3s, border-bottom 0.3s;
   cursor: pointer;
-  z-index: 1;
+  z-index: 10;
 }
 
 .project-links a:hover {
@@ -133,12 +138,15 @@
   object-fit: cover;
   transition: transform 0.3s;
   border: 0.2rem solid var(--primary);
+  z-index: 5;
+  position: relative;
 }
 
 .refimg {
   height: 2rem;
   width: 2rem;
-  z-index: 1;
+  z-index: 10;
+  position: relative;
 }
 
 .project-card:hover .img {
@@ -193,6 +201,6 @@
     font-size: 0.9rem;
   }
   .img {
-    height: 10rem;
+    height: 10rem
   }
 }

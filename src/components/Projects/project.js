@@ -34,7 +34,7 @@ const projects = [
     link: "https://my-works-xi.vercel.app/birthday.html",
     github: "https://github.com/ishikagoyal02/MyWorks",
     image: bday,
-    description: "The website offers a personalized and interactive experience for users to celebrate their loved one’s special day. It features beautiful designs, customizable messages, and an intuitive interface, providing a unique way to express birthday greetings."
+    description: "It features beautiful designs, customizable messages, and an intuitive interface, providing a unique way to express birthday greetings."
   },
   {
     name: "Rock Paper Scissors Game",

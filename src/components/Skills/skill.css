@@ -66,3 +66,22 @@
 .skills-slider .slider-track {
   width: 200%; /* Double the width to accommodate the cloned elements */
 }
+
+@media screen and (max-width: 768px) {
+  .skill-card {
+    width: 150px;
+    transition: transform 0.1s;
+    height: 150px;
+    padding: 1rem;
+  }
+
+  .slider-track {
+    animation: scroll 7s linear infinite;
+  }
+
+  .skill-icon {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+}
