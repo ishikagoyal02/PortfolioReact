@@ -185,8 +185,14 @@
 }
 
 @media screen and (max-width: 768px) {
+
+  .projects {
+    padding: 0 0.7rem;
+    
+  }
   .project-card {
     max-width: 100%;
+    height: auto;
   }
   .title {
     font-size: 2rem;
