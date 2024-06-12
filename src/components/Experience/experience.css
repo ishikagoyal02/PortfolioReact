@@ -130,6 +130,10 @@
   }
   
   @media screen and (max-width: 768px) {
+
+    .experience {
+      padding: 2rem 2rem 4rem 2rem;
+    }
     .experience-boxes {
       padding: 1rem;
       gap: 1rem;
