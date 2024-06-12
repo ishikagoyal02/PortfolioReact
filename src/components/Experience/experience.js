@@ -9,7 +9,7 @@ const Experience = () => {
     <Link to="education" smooth={true} duration={1000}>
     <section className="experience" id="experience">
       <div className="title"><span>My Experience</span></div>
-      <div className="text"><span>Experience is the teacher of all things.</span></div>
+      {/* <div className="text"><span>Experience is the teacher of all things.</span></div> */}
       <div className="experience-boxes">
         <div className="box">
           <i className="fas fa-award"></i>

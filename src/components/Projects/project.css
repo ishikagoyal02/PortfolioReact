@@ -50,8 +50,8 @@
 }
 
 .project-card {
-  width: 350px;
-  min-width: 350px;
+  width: 300px;
+  min-width: 300px;
   height: auto;
   background-color: var(--main2);
   border-radius: 1rem;

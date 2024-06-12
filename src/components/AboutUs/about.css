@@ -38,14 +38,14 @@
     margin-top: 1rem;
   }
   
-  .contacts {
+  .aboutCont .contacts {
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     gap: 1rem;
     margin-top: 2rem;
-    z-index: 1;
+    z-index: 10;
   }
   
   .cont {
