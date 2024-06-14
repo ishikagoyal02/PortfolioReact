@@ -22,10 +22,9 @@ const Intro = () => {
                 <a href={require("../../assets/IshikaGoyal_B.TechCS.pdf")} download="Ishika_Resume.pdf">
                     <button className="btn">Download Resume</button>
                 </a>
-                {/* Uncomment the video if needed */}
-                {/* <video src={logoHome} autoPlay="true" loop muted className="vdo"></video> */}
+               
             </div>
-            <div className="animated-letter">I</div>
+           
         </section>
     )
 }
