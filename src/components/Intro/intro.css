@@ -100,6 +100,16 @@
   transform: scale(1.1);
 }
 
+ .contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  gap: 1rem;
+  margin-top: 2rem;
+  z-index: 10;
+}
+
 @media screen and (max-width: 710px) {
   #intro {
     padding-top: 0;
