@@ -89,7 +89,7 @@
   background-color: white;
   padding: 1.5rem 2.3rem;
   border-radius: 3rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   cursor: pointer;
   z-index: 2; /* Ensures it appears above particles */
   animation: fadeIn 2s ease-in 2s;
