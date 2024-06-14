@@ -6,13 +6,14 @@ import bday from "../../assets/bday.jpg";
 import tdl from "../../assets/tdl.jpg";
 import goprep from "../../assets/goprep.jpg";
 import github from "../../assets/github1.png";
+import port from "../../assets/port.jpg";
 
 const projects = [
   {
     name: "My Portfolio",
     link: "https://ishikaportfolio-ishikagoyal02s-projects.vercel.app/",
     github: "https://github.com/ishikagoyal02/PortfolioReact",
-    image: "",
+    image: port,
     description: "This is my Portfolio website that helps others know about me and my works."
   },
   {
