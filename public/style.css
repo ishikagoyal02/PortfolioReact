@@ -21,12 +21,12 @@ body{
   }
   
   ::-webkit-scrollbar-thumb {
-    background-color: var(--border-color);
+    background-color: #474549;
     border-radius: 6px;
   }
   
   ::-webkit-scrollbar-track {
-    background-color: var(--background-color-secondary);
+    background-color: black;
   }
 
 @tailwind base;
