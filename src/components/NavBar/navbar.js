@@ -16,7 +16,7 @@ const NavBar = () => {
             </button>
             <div className={`navLinks ${isOpen ? "open" : ""}`}>
                 <Link to="intro" smooth={true} duration={1000} className="navButton" onClick={toggleMenu}>HOME</Link>
-                <Link to="about" smooth={true} duration={1000} className="navButton" onClick={toggleMenu}>ABOUT ME</Link>
+                <Link to="about" smooth={true} duration={1000} className="navButton" onClick={toggleMenu}>ABOUT</Link>
                 <Link to="skills" smooth={true} duration={1000} className="navButton" onClick={toggleMenu}>SKILLS</Link>
                 <Link to="education" smooth={true} duration={1000} className="navButton" onClick={toggleMenu}>EDUCATION</Link>
                 <Link to="experience" smooth={true} duration={1000} className="navButton" onClick={toggleMenu}>EXPERIENCE</Link>

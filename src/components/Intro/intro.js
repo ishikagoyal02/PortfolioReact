@@ -26,17 +26,17 @@ const Intro = () => {
                     <button className="btn">Download Resume</button>
                 </a>
 
-                <div className="contacts">
+                <div className="socials">
               <a href="https://linktr.ee/ishika_goyal02" target="_blank" rel="noopener noreferrer">
-              <img src={linktree} className="cont linktree" alt="Linktree" />
+              <img src={linktree} className="social-cont linktree" alt="Linktree" />
             </a>
             
             <a href="https://www.linkedin.com/in/ishika-goyal-375112221/" target="_blank" rel="noopener noreferrer">
-              <img src={linkedln} className="cont linkedin" alt="LinkedIn" />
+              <img src={linkedln} className="social-cont linkedin" alt="LinkedIn" />
             </a>
             
             <a href="https://github.com/ishikagoyal02" target="_blank" rel="noopener noreferrer">
-              <img src={github} className="cont github" alt="GitHub" />
+              <img src={github} className="social-cont github" alt="GitHub" />
             </a>
              
            </div>
