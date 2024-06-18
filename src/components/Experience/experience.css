@@ -28,11 +28,11 @@
   }
   
   .experience-boxes {
-    display: flex;
+    display: flex;  
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 2rem;
-    margin: 3rem 3rem 0rem 3rem;
+    margin: 3rem 1rem 0rem 1rem;
   }
   
   .experience .box {
